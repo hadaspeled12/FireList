@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "316411286446",
+    "firebase_url": "https://firelist-bde63.firebaseio.com",
+    "project_id": "firelist-bde63",
+    "storage_bucket": "firelist-bde63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316411286446:android:e75f8858b216687a",
+        "android_client_info": {
+          "package_name": "com.example.hadasp.firelist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316411286446-34mhe7ia4sl9u9jgt2dm98qf4i9ft74q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9myLTJ_w4H-3hprJzYnbp3xizaE1WpZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

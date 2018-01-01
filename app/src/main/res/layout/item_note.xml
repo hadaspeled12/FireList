@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.hadasp.firelist.NoteActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/accb_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_alignBaseline="@id/et_note"/>
+        <EditText
+            android:id="@+id/et_note"
+            android:layout_toRightOf="@id/accb_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Note"
+            android:gravity="center_horizontal"
+            android:enabled="false"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent">
+    </View>
+
+</LinearLayout>
