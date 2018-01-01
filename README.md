@@ -2,7 +2,7 @@
 
 This is a simple to do list app supported by Firebase:
 - Login by email/gmail.
-- Allows multipile lists.
+- Allows multiple lists.
 - Save changes in real time.
 - Allows to collaborate lists between 2 users.
 
