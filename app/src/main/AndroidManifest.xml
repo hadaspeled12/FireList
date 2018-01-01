@@ -28,7 +28,8 @@
         </activity>
 
         <activity android:name=".EditListActivity"
-            android:parentActivityName=".NoteActivity">
+            android:parentActivityName=".NoteActivity"
+            android:label="Edit List">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.hadasp.firelist.NoteActivity" />

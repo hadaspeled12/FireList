@@ -29,6 +29,7 @@ import java.util.Map;
 
 import static com.example.hadasp.firelist.PublicVariables.id;
 import static com.example.hadasp.firelist.PublicVariables.mIdOfList;
+import static com.example.hadasp.firelist.PublicVariables.mNameOfList;
 import static com.example.hadasp.firelist.PublicVariables.name;
 import static com.example.hadasp.firelist.PublicVariables.newnameoflist;
 import static com.example.hadasp.firelist.PublicVariables.updatelist;
@@ -94,6 +95,7 @@ public class NoteActivity extends AppCompatActivity implements NoteAdapter.Notes
 
         }).attachToRecyclerView(recyclerView);
         attachDatabaseReadListener();
+        setTitle(mNameOfList);
     }
 
     private void onAddNoteBtnClick() {
